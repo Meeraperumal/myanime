@@ -12,8 +12,14 @@ body{
     font-family: 'Aclonica';
 }
 nav{
+    background-color: black;
     display:flex;
     justify-content: center;
+    align-items:center ;
+    overflow: hidden;
+    position: fixed;
+    width:100%;
+    top:0;
 }
 a{
     text-decoration: none;
@@ -106,6 +112,7 @@ nav ul li:hover{
     background-color: gold;
     display: flex;
     justify-content: center;
+    margin-top: 5%;
 }
 .name{
     color:red;
